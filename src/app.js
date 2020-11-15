@@ -6,6 +6,7 @@ import LoginPage from './pages/login'
 import MyInfoPage from './pages/my-info'
 import SearchPage from './pages/search'
 import ErrorPage from './pages/error'
+import GlobalStyles from './components/global-styles'
 const Container = styled.div`
   max-width: 720px;
   margin: 0 auto;
@@ -14,13 +15,13 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <GlobalStyles />
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage}></Route>
           <Route path="/login" component={LoginPage}></Route>
           <Route path="/myinfo" component={MyInfoPage}></Route>
           <Route path="/search" component={SearchPage}></Route>
-
           <Route component={ErrorPage}></Route>
         </Switch>
       </Router>

@@ -32,6 +32,8 @@ function Box() {
   const handleBgColor = (e) => {
     setBgColor(e.target.value)
   }
+  //handle이 붙은거는 state를 컨트롤 하는 함수임
+  //매번 새롭게 동작할 필요가 없는것은 함수를 따로 만드는것이 좋음
 
   //useEffect 로 componentDidMount를 대체 할 수 있음
   //함수형 컴포넌트가 100% 클래스 컴포넌트를 대체하는것은 아님.
