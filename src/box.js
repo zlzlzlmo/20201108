@@ -11,18 +11,18 @@ const BoxContainer = styled.div`
 `
 // 백틱 안에선 스크립트 쓰려면 $ 필요
 
-// class Box extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
+class Box extends React.Component {
+  constructor(props) {
+    super(props)
+  }
 
-//   componentDidMount() {
-//     console.log('sadas')
-//   }
-//   render() {
-//     return <div>Box</div>
-//   }
-// }
+  componentDidMount() {
+    console.log('sadas')
+  }
+  render() {
+    return <div>Box</div>
+  }
+}
 
 function Box() {
   const [bgColor, setBgColor] = useState('#efefef')

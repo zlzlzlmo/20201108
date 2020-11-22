@@ -7,6 +7,7 @@ import MyInfoPage from './pages/my-info'
 import SearchPage from './pages/search'
 import ErrorPage from './pages/error'
 import GlobalStyles from './components/global-styles'
+
 const Container = styled.div`
   max-width: 720px;
   margin: 0 auto;
