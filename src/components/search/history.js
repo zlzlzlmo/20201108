@@ -21,7 +21,8 @@ const ListContainer = styled.ul`
   margin: 10px 0;
 `
 
-//&는 자기 자신
+//&는 자기 자신을 나타냄
+//즉, 나 자신(li)들에서 마지막 요소 값을 제외한 값에 margin-bottom 속성 지정
 const KeywordContainer = styled.li`
   overflow: hidden;
 
